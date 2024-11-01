@@ -1,0 +1,19 @@
+/**
+ * WC Carte Cultura - CSS
+ *
+ * @author ilGhera
+ * @package wc-carte-cultura/css
+ *
+ * @version 0.9.0
+ */
+
+input#wc-codice-carte-cultura {
+	display: block;
+	margin-top: 0.5rem;
+	width: 100%;
+}
+
+label[for="wc-codice-carte-cultura"] {
+	text-transform: uppercase;
+	display: block;
+}

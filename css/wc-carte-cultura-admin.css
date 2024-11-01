@@ -1,0 +1,186 @@
+/**
+ * WC Carte Cultura - Admin CSS
+ *
+ * @author ilGhera
+ * @package wc-carte-cultura/css
+ *
+ * @version 0.9.0
+ */
+
+#wccc-admin-menu {
+	margin: 1rem 0 2rem;
+}
+
+.cert-loaded {
+	padding: 6px 80px;
+	margin-right: 5px;
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+	background-color: #5BB75B;
+	background-image: linear-gradient(to bottom, #62C462, #51A351);
+	background-repeat: repeat-x;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.cert-loaded.error {
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+	background-color: #ff0000;
+	background-image: linear-gradient(to bottom, #ff0000, #cc0000);
+	background-repeat: repeat-x;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.button.delete-certificate {
+	margin-left: 0.5rem;
+}
+
+.button.delete-certificate:hover {
+	background: #d9534f;
+	border: 1px solid #d9534f;
+	color: #fff;
+}
+
+ul.categories-container {
+	margin: 0;
+}
+
+.wccc-field {
+	width: 260px;
+	margin-right: 0.5rem;
+}
+
+.add-cat-container,
+.remove-cat-container {
+	display: inline;
+	position: relative;
+	top: 0.3rem;
+	cursor: pointer;
+}
+
+.add-cat-hover,
+.remove-cat-hover {
+	display: none;
+}
+
+.add-cat-container:hover .add-cat,
+.remove-cat-container:hover .remove-cat {
+	display: none;
+}
+
+.add-cat-container:hover .add-cat-hover,
+.remove-cat-container:hover .remove-cat-hover {
+	display: inline;
+}
+
+.wccc-form, .wccc-table {
+	margin-top: 2rem;
+}
+
+.one-of {
+	padding-bottom: 3rem;
+	border-bottom: 1px solid #ccc;
+}
+
+.wccc-button {
+	margin-top: 1rem !important;
+}
+
+.wccc-admin {
+	display: none;
+}
+
+.label {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+
+.label a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.label a:hover {
+	color: #0073aa;
+}
+
+.label-warning {
+	background-color: #f0ad4e;
+}
+
+.label.premium {
+    display: inline-block;
+    margin: 1rem 1rem 0;
+    padding: 0.4rem;
+}
+
+.label.premium.no-margin {
+    margin: 1rem 0;
+}
+
+.wccc-email-details {
+    display: none;
+}
+
+.shortcodes {
+    display: block;
+}
+
+.wccc-divider {
+    padding-bottom: 2rem;
+    margin: 2rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+span.wccc-alert {
+	display: block;
+	margin: 1rem 0 0;
+	padding: 0.6rem;
+	background: #F2DEDE;
+	border-radius: 0.2rem;
+	color: #a94442;	
+}
+
+.wrap-left {
+    float: left;
+    width: 70%;
+}
+
+.wrap-right {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+	.wrap-left {
+		float: none;
+		width: 100%;
+	}
+
+	.wrap-right {
+		float: none; 
+		width: 100%; 
+		text-align: center; 
+		padding-top: 3rem;
+	}
+
+
+}
+
+@media screen and (max-width: 780px) {
+
+.cert-loaded {
+	padding: 10px 80px;
+	top: -1px;
+}
